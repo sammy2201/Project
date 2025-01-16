@@ -20,12 +20,12 @@ Ensure you have the following installed on your system:
 
 1. First Clone the repository
 2. Install dependencies using npm or another package manager
-   `npm init`
-   `npm install`
+   ```npm init```
+   ```npm install```
 
 ## Run:
 To run the project use below comand:
-`npx ts-node src/index.ts`
+```npx ts-node src/index.ts```
 
 ## Implementation Approch:
 
@@ -46,7 +46,7 @@ This project includes two test files that validate the functionality of the core
 1. binary-operation-node.test.ts: Tests for the binary operations like addition, subtraction, multiplication, division, nested expressions and comparisons.
 2. number-node.test.ts: Tests for numeric literal handling, including basic numbers, negative numbers, and decimals.
 
-To execute the tests, use: `npm test`
+To execute the tests, use: ```npm test```
 
 ## AI usage:
 I have used AI to generate the test-cases.
