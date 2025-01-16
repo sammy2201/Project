@@ -1,3 +1,4 @@
+//This file has test cases for numeric literal handling
 import createNumberNode from "../src/ast/number-node";
 
 test("NumberNode handles numbers", () => {

@@ -24,10 +24,10 @@ const createBinaryOperationNode = (
       }
 
       switch (operator) {
+        //Type assertion as the required types are numbers
         case "+":
           return (leftValue as number) + (rightValue as number);
         case "-":
-          //I have done type assertion as the required types are numbers, and typeScript might infer them as mixed types(number | boolean)
           return (leftValue as number) - (rightValue as number);
         case "*":
           return (leftValue as number) * (rightValue as number);
